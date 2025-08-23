@@ -1,5 +1,5 @@
 {
-.appVersion = "3321";
+.appVersion = "3424";
 .formatVersion = 3;
 axes = (
 {
@@ -2902,6 +2902,19 @@ tag = slng;
 {
 name = "Feature for Feature Variations";
 value = rlig;
+},
+{
+name = "Guides Palette Config";
+value = {
+showAngle = 1;
+showCoordinates = 1;
+sortBy = "";
+tagPrefix = guide_;
+};
+},
+{
+name = "Write DisplayStrings";
+value = 0;
 }
 );
 date = "2022-04-06 06:07:56 +0000";
@@ -3364,18 +3377,19 @@ pos = (632,1676);
 },
 {
 angle = 80.6;
-filter = "script == \"khmer\" AND category == \"Letter\"";
+filter = "tags CONTAINS \"guide_[KH] Right Sidebaring\"";
 name = "[KH] Right Sidebaring";
 orientation = right;
 pos = (-325,0);
 },
 {
 angle = 80.6;
-filter = "script == \"khmer\"";
+filter = "tags CONTAINS \"guide_[KH] Left Sidebaring\"";
 name = "[KH] Left Sidebaring";
 pos = (140,0);
 },
 {
+filter = "tags CONTAINS \"guide_[KH] ka-height\"";
 name = "[KH] ka-height";
 pos = (-59,1234);
 }

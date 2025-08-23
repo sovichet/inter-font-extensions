@@ -1,5 +1,5 @@
 {
-.appVersion = "3321";
+.appVersion = "3424";
 .formatVersion = 3;
 axes = (
 {
@@ -2902,6 +2902,19 @@ wght = {
 {
 name = "Feature for Feature Variations";
 value = rlig;
+},
+{
+name = "Guides Palette Config";
+value = {
+showAngle = 1;
+showCoordinates = 1;
+sortBy = "";
+tagPrefix = guide_;
+};
+},
+{
+name = "Write DisplayStrings";
+value = 0;
 }
 );
 date = "2022-04-06 06:07:56 +0000";
@@ -3354,28 +3367,29 @@ guides = (
 pos = (0,2759);
 },
 {
+filter = "tags CONTAINS \"guide_[KH] ka-body\"";
 name = "[KH] ka-body";
 pos = (-59,955);
 },
 {
 angle = 90;
-filter = "script == \"khmer\"";
+filter = "tags CONTAINS \"guide_[KH] Left Sidebaring\"";
 name = "[KH] Left Sidebaring";
 pos = (233,-722);
 },
 {
-filter = "script == \"khmer\" AND category == \"Mark\" AND name ENDSWITH \".small\"";
+filter = "tags CONTAINS \"guide_[KH] Triisap Small\"";
 name = "[KH] Triisap Small";
 pos = (-42,1490);
 },
 {
-filter = "script == \"khmer\" AND category == \"Mark\" AND name ENDSWITH \".small\"";
+filter = "tags CONTAINS \"guide_[KH] Triisap Small\"";
 name = "[KH] Triisap Small";
 pos = (-42,1630);
 },
 {
 angle = 90;
-filter = "script == \"khmer\" AND category == \"Letter\"";
+filter = "tags CONTAINS \"guide_[KH] Right Sidebaring\"";
 name = "[KH] Right Sidebaring";
 orientation = right;
 pos = (-233,-722);
@@ -3385,6 +3399,7 @@ angle = 90;
 orientation = center;
 },
 {
+filter = "tags CONTAINS \"guide_[KH] ka-height\"";
 name = "[KH] ka-height";
 pos = (-59,1234);
 }
@@ -3531,28 +3546,29 @@ guides = (
 pos = (0,2759);
 },
 {
+filter = "tags CONTAINS \"guide_[KH] ka-body\"";
 name = "[KH] ka-body";
 pos = (-59,920);
 },
 {
 angle = 90;
-filter = "script == \"khmer\"";
+filter = "tags CONTAINS \"guide_[KH] Left Sidebaring\"";
 name = "[KH] Left Sidebaring";
 pos = (214,-722);
 },
 {
-filter = "script == \"khmer\" AND category == \"Mark\" AND name ENDSWITH \".small\"";
+filter = "tags CONTAINS \"guide_[KH] Triisap Small\"";
 name = "[KH] Triisap Small";
 pos = (-42,1537);
 },
 {
-filter = "script == \"khmer\" AND category == \"Mark\" AND name ENDSWITH \".small\"";
+filter = "tags CONTAINS \"guide_[KH] Triisap Small\"";
 name = "[KH] Triisap Small";
 pos = (-42,1700);
 },
 {
 angle = 90;
-filter = "script == \"khmer\"";
+filter = "tags CONTAINS \"guide_[KH] Right Sidebaring\"";
 name = "[KH] Right Sidebaring";
 orientation = right;
 pos = (-214,-722);
@@ -3562,6 +3578,7 @@ angle = 90;
 orientation = center;
 },
 {
+filter = "tags CONTAINS \"guide_[KH] ka-height\"";
 name = "[KH] ka-height";
 pos = (-59,1234);
 }
