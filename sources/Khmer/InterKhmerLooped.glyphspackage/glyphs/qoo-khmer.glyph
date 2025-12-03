@@ -64,6 +64,9 @@ nodes = (
 },
 {
 alignment = -1;
+attr = {
+identifier = EDAC4BFD;
+};
 ref = "qu-khmer";
 }
 );

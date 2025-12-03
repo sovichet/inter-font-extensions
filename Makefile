@@ -3,7 +3,7 @@
 FAMILY:=Inter Southeast Asian Scripts
 DRAWBOT_SCRIPTS=$(shell ls documentation/*.py)
 DRAWBOT_OUTPUT=$(shell ls documentation/*.py | sed 's/\.py/.png/g')
-INTER_ARCHIVE:=https://github.com/rsms/inter/archive/refs/heads/master.zip
+INTER_ARCHIVE:=https://github.com/rsms/inter/archive/refs/tags/v4.1.zip
 PYTHONPATH=./recipeproviders
 VENV = . venv/bin/activate
 
